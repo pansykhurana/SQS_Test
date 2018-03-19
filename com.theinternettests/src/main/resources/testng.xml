@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="10" name="Test">
+    <classes>
+        <class name="com.theinternettests.tests.CheckCanvasPresence"/>
+      <class name="com.theinternettests.tests.CheckButtonColor"/>
+      <class name="com.theinternettests.tests.GitHubAccess"/>
+      <class name="com.theinternettests.tests.VerifyApplicationLaunch"/>
+      <class name="com.theinternettests.tests.CheckSuccessButtonColor"/>
+      <class name="com.theinternettests.tests.CheckAlertButtonColor"/>
+      <class name="com.theinternettests.tests.CheckDeleteLinkForAllElements"/>
+      <class name="com.theinternettests.tests.CheckHeaderCount"/>
+      <class name="com.theinternettests.tests.CheckEditLinksForAllElements"/>
+      <class name="com.theinternettests.tests.RetrieveWebTableCOntent"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
